@@ -1,4 +1,4 @@
-{{- $name := printf "%s-%s" .Release.Name "service" -}}
+{{- $name := printf "%s-%s" .Release.Name "univ" -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
